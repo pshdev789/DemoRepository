@@ -1,0 +1,1 @@
+web gunicorn app: java $JAVA_OPTS -jar target/coronavirus-tracker-0.0.1-SNAPSHOT.war -Dserver.port=$PORT
